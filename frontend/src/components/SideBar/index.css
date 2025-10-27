@@ -1,0 +1,14 @@
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  width: 7rem;
+  background-color: rgb(58, 26, 117);
+}
+
+img {
+  width: 6rem;
+}

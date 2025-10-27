@@ -1,0 +1,66 @@
+.corpoSearch {
+  position: relative;
+  height: 100vh;
+  width: 200vh;
+}
+.sidebar {
+  position: absolute;
+  left: 0%;
+}
+.main-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-card {
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3%;
+  margin-top: 2%;
+
+}
+.form-card-title {
+  height: 100%;
+  width: 100%;
+  padding: 0.3rem 0.3rem 0.3rem 1rem;
+  border-radius: 100px;
+  font-size: x-large;
+}
+.jogos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 20%;
+}
+.jogo {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  align-items: center;
+  background-color: black;
+  width: 15%;
+  margin-left: 7%;
+  margin-bottom: 3%;
+}
+.j {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgjogo {
+  width: 95%;
+}
+.texto-game {
+  color: white;
+}
+.btn {
+  margin-top: 1rem;
+  border-radius: 100px;
+  padding: .8rem 2rem;
+  font-size: larger;
+  border: none;
+}

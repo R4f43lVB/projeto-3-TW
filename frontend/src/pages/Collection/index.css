@@ -1,0 +1,29 @@
+.corpoColection {
+  position: relative;
+  height: 100vh;
+  width: 200vh;
+}
+.main-area-colecao{
+    position: absolute;
+    right: 3%;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.item-jogo{
+    width: 20%;
+    margin: 2%;
+    height: 20%;
+}
+.jogo-colecao{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+.imagens{
+    width: 100%;
+
+}
